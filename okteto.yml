@@ -1,0 +1,8 @@
+name: cli-website
+command: npm start
+forward:
+- 8080:8888
+persistentVolume:
+  enabled: false
+sync:
+  - .:/usr/src
